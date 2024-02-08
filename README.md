@@ -19,6 +19,6 @@ O Projeto utiliza:
 ## Exemplo
 ### Código de Barra
 
-!Código de Barra(img/olaMundoNadinAqui.png)
+![Código de Barra](img/olaMundoNadinAqui.png)
 
 
