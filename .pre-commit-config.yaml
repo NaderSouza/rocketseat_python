@@ -1,0 +1,15 @@
+repos:
+  - repo: local
+    hooks:
+      - id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        args:
+          [
+           "-rn",                # Apresentar Mensagens
+           "-sn" ,               # Não Apresentar Score
+           "--rcfile=.pylintrc", # Arquivo de configuração
+           "--load-plugins=pylint.extensions.docparams"
+          ]
